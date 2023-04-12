@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.sim_validation.dto.AadhaarDetailsDto;
 import com.sim_validation.dto.SimDetailsDto;
 import com.sim_validation.entity.SimDetails;
 import com.sim_validation.service.SimDetailsService;
@@ -39,5 +40,6 @@ public class SimDetailsController {
 		}
 		return object;
 	}
+	
 
 }

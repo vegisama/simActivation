@@ -5,6 +5,7 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.sim_validation.dto.AadhaarDetailsDto;
 import com.sim_validation.dto.SimDetailsDto;
 import com.sim_validation.entity.ActivatedSimCards;
 import com.sim_validation.entity.SimDetails;
@@ -42,5 +43,6 @@ public class SimDetailsServiceImple implements SimDetailsService {
 		}
 
 	}
+
 
 }
